@@ -1,0 +1,415 @@
+
+.bg-1{
+background-size: cover;
+position :absolute;
+top:50;
+left: 300;
+right: 20;
+z-index: 0;
+}
+
+.bg-2{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:130;
+bottom: 0;
+left: 430;
+right: 20;
+z-index: 0;
+}
+
+.bg-3{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:100;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-4{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:-100;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-5{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:150;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-6{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-7{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-8{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-9{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 350;
+right: 20;
+z-index: 0;
+}
+
+.bg-10{
+background-size: cover;
+background-position : 50% 50%;
+position :absolute;
+top:-20;
+bottom: 20;
+left: 350;
+right: 20;
+z-index: 0;
+}
+
+.bg-11{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-12{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-13{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-14{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-15{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:150;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+.bg-16{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:0;
+bottom: 20;
+left: 450;
+z-index: 0;
+}
+
+.bg-17{
+background-size: cover;
+background-position : 50% 20%;
+position :absolute;
+top:20;
+bottom: 20;
+left: 400;
+right: 20;
+z-index: 0;
+}
+
+
+
+
+
+
+
+.logo {
+
+width : 20px;
+position :absolute;
+left: 20px;
+top: 50px;
+z-index: 1;
+}
+
+.info {
+	width: 50px;
+	position : absolute;
+	left: 5px;
+	bottom: 5px;
+	z-index: 1
+}
+
+
+
+
+
+
+.bg-1{
+  animation-name: a ;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 2deg )}
+}
+
+
+.bg-2{
+  animation-name: b;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes b{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+
+.bg-3{
+  animation-name: c;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes c{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+
+
+.bg-4{
+  animation-name: d;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes d{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 1deg )}
+}
+
+
+.bg-5{
+  animation-name: e;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes e{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-6{
+  animation-name: f;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes f{
+  0% {transform: rotate( 5deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-7{
+  animation-name: g;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes g{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 2deg )}
+}
+
+.bg-8{
+  animation-name: h;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes h{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 1deg )}
+}
+
+.bg-9{
+  animation-name: i;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes i{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 2deg )}
+}
+
+.bg-10{
+  animation-name: j;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes j{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-11{
+  animation-name: k;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes k{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-12{
+  animation-name: l;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes l{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-13{
+  animation-name: m;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes m{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( -1deg )}
+}
+
+.bg-14{
+  animation-name: o;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes o{
+  0% {transform: rotate( 0deg );}
+  100%{transform: rotate( 1deg )}
+}
+
+.bg-15{
+  animation-name: p;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes p{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-16{
+  animation-name: q;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes q{
+  0% {transform: rotate( 1deg );}
+  100%{transform: rotate( 0deg )}
+}
+
+.bg-17{
+  animation-name: r;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
